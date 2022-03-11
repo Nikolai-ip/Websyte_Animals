@@ -1,0 +1,51 @@
+
+
+ figure {
+     
+    width:90%;
+
+ /* Ширина */  
+    margin: 0 -10px 5% 6%; /* Отступ слева */  
+   }
+    figure img {
+        border: 5px solid black;
+        border-top-left-radius: 30px;
+        border-style: outset;
+        transition: 0.5s; /* Время эффекта */
+    }
+        figure img:hover {
+            transform: scale(1.05);
+            border: 10px solid black;
+            filter: brightness(1.4);
+        }
+    figure span {
+        
+        position: absolute;
+        border: 5px solid black;
+        border-bottom-right-radius: 30px;
+        font-family: Calibri;
+        font-size: 27px;
+        height: 26.5%;
+        color: rgb(255, 255, 255);
+        width: 20%;
+        left: 75%;
+        backdrop-filter: brightness(0.6);
+        padding-left: 10px;
+        padding-right: 10px;
+        text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+    }
+html {
+    overflow-x: hidden;
+}
+body
+{
+    height:80%;
+}
+.background {
+
+    
+    background-position: center center;
+    left:2%;
+    background-size: cover;
+    z-index: -1
+}
